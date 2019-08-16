@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>登录页面</title>
+</head>
+<body>
+	<h3 th:text="${msg}" style="color:red"></h3>
+	<form method="post" action="login">
+  <p>姓名：<input type="text" name="name" size="10"></p>
+  <p>密码：<input type="password" name="password" size="10"></p>
+  <p><input type="submit" value="确定">
+     <input type="reset" value="取消"></p>
+  </form>
+
+</body>
+</html>
